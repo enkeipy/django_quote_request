@@ -17,3 +17,5 @@
 [user]
 	email = kukshynsky@gmail.com
 	name = Nikita Kukshinski
+[push]
+	default = simple
