@@ -1,0 +1,9 @@
+.cache/
+.local/
+.virtualenvs/
+uploads/
+.bashrc
+.my.cnf
+.profile
+.pythonstartup.py
+.vimrc
