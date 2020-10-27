@@ -1,6 +1,6 @@
 .cache/
 .local/
-.virtualenvs/
+*virtualenvs/
 uploads/
 .bashrc
 .my.cnf
