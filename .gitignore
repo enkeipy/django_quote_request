@@ -7,3 +7,4 @@ uploads/
 .profile
 .pythonstartup.py
 .vimrc
+*__pycache__*
