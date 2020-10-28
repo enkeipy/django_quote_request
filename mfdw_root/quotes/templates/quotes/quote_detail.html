@@ -20,6 +20,7 @@ All Quotes
     <tr><td>Quote Date:</td><td>{{ quote.quotedate|date:"m-d-y"|default:'pending' }}</td></tr>
     <tr><td>Submit Price:</td><td>{{ quote.quoteprice|default:"--" }}</td></tr>
 </table>
+
 <p><a href="../show">Back to quote list</a></p>
 
 {% endblock content %}

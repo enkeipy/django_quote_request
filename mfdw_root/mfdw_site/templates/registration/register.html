@@ -4,10 +4,6 @@
 User Registration
 {% endblock title %}
 
-{% block sidenav %}
-    <li><a href='/'>Home</a></li>
-{% endblock sidenav %}
-
 {% block content %}
 <h1>User Registration</h1>
 <p>Enter your username and password to register.</p>
@@ -16,7 +12,7 @@ User Registration
     {{form.as_table}}
     <tr>
         <td>&nbsp;</td>
-        <td><input type='submit' value='register'></td>
+        <td><input type='submit' class="btn btn-primary btn-lg" value='register'></td>
     </tr>
 </table>
 <input type='hidden' name='next' value='{{next}}' />

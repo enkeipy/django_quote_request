@@ -26,9 +26,9 @@ STATICFILES_DIR = os.path.join(MFWD_SITE_DIR, 'static')
 SECRET_KEY = 'ogfe=_5k4=y#e1urq)@7ug=s(xkh=de@pw62xi4j9e5j%hj6*y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['kukshinskiy.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -80,11 +80,8 @@ WSGI_APPLICATION = 'mfdw_site.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'kukshinskiy$mfdw_db',
-        'USER': 'kukshinskiy',
-        'PASSWORD': '455320aa',
-        'HOST': 'kukshinskiy.mysql.pythonanywhere-services.com',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
 
@@ -127,4 +124,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [STATICFILES_DIR,]
-STATIC_ROOT = '/home/kukshinskiy/mfdw_site/static'
+# STATIC_ROOT = '/mfdw_site/static'

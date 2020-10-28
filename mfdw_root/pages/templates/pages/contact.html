@@ -1,9 +1,9 @@
 {% extends 'pages/page.html' %}
 {% block title %}
-Contact Us
+Contact me
 {% endblock title %}
 {% block content %}
-<h1>Contact us</h1>
+<h1>Contact me</h1>
 {% if submitted %}
     <p class='success'>
     Your message was submitted successfully. Thank you!
@@ -14,7 +14,7 @@ Contact Us
         {{ form.as_table }}
         <tr>
             <td>&nbsp;</td>
-            <td><input type='submit' value='Submit'></td>
+            <td><input type='submit' class="btn btn-primary btn-lg" value='Submit'></td>
         </tr>
     </table>
     {% csrf_token %}

@@ -7,7 +7,7 @@ uploads/
 .profile
 .pythonstartup.py
 .vimrc
-
+mydatabase
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
